@@ -1,0 +1,12 @@
+Local Date 8/13/2025
+
+WeightAX: -6.70145
+WeightAY: 6.99135
+WeightA2X: -5.81294
+WeightA2Y: 5.69448
+WeightOutX: -9.89164
+WeightOutY: 10.4719
+
+BiasA: 3.33526
+BiasA2: -3.08671
+BiasOut: 4.64682
