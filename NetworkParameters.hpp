@@ -1,25 +1,26 @@
 #ifndef NETWORKPARAMETERS_HPP
 #define NETWORKPARAMETERS_HPP
 
-extern double weightAX;
-extern double weightAY;
+#include <vector>
 
-extern double weightA2X;
-extern double weightA2Y;
+struct HiddenNeuronParams {
+    std::vector<double> weights;
+    double bias;
+    double output;
+};
 
-extern double weightOutX;
-extern double weightOutY;
+struct OutputNeuronParams {
+    std::vector<double> weights;
+    double bias;
+    double output;
+    double deltaOut;
+};
 
-extern double biasA;
-extern double biasA2;
-extern double biasOut;
+extern const double learningRate;
+extern const int inputs[4][2];
+extern const int targets[4];
 
-extern double outputA;
-extern double outputA2;
-extern double deltaOut;
-
-extern double learningRate;
-extern int inputs[4][2];
-extern int targets[4];
+extern std::vector<HiddenNeuronParams> hiddenNeuronParams;
+extern std::vector<OutputNeuronParams> outputNeuronParams;
 
 #endif

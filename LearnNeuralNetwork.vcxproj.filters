@@ -21,10 +21,10 @@
     <ClCompile Include="Utilities.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="HiddenNeurons.cpp">
+    <ClCompile Include="HiddenNeuron.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="OutputNeurons.cpp">
+    <ClCompile Include="OutputNeuron.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="NetworkParameters.hpp">
@@ -33,7 +33,7 @@
     <ClCompile Include="NetworkParameters.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="InputNeurons.cpp">
+    <ClCompile Include="InputNeuron.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -41,13 +41,13 @@
     <ClInclude Include="Utilities.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="HiddenNeurons.hpp">
+    <ClInclude Include="HiddenNeuron.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="OutputNeurons.hpp">
+    <ClInclude Include="OutputNeuron.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="InputNeurons.hpp">
+    <ClInclude Include="InputNeuron.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
