@@ -10,12 +10,10 @@ void HiddenNeuron::Update(const std::vector<double>& inputs, HiddenNeuronParams&
 
     double delta = totalDelta * params.output * (1.0 - params.output);
 
-    // Update each input weight
     for (int i = 0; i < params.weights.size(); i++) {
         params.weights[i] -= learningRate * delta * inputs[i];
     }
 
-    // Update bias
     params.bias -= learningRate * delta;
 }
 
@@ -27,4 +25,5 @@ void HiddenNeuron::CalcOutput(const std::vector<double>& inputs, HiddenNeuronPar
     params.output = CalcSigmoid(sum);
 
 }
+
 
